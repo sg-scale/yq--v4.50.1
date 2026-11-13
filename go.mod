@@ -10,7 +10,7 @@ require (
 	github.com/go-ini/ini v1.67.0
 	github.com/goccy/go-json v0.10.5
 	github.com/goccy/go-yaml v1.19.0
-	github.com/hashicorp/hcl/v2 v2.24.0
+	github.com/hashicorp/hcl/v2 v2.25.0
 	github.com/jinzhu/copier v0.4.0
 	github.com/magiconair/properties v1.8.10
 	github.com/pelletier/go-toml/v2 v2.2.4
@@ -18,7 +18,7 @@ require (
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/yuin/gopher-lua v1.1.1
-	github.com/zclconf/go-cty v1.17.0
+	github.com/zclconf/go-cty v1.19.0
 	go.yaml.in/yaml/v4 v4.0.0-rc.3
 	golang.org/x/net v0.48.0
 	golang.org/x/text v0.32.0
@@ -28,6 +28,7 @@ require (
 require (
 	github.com/agext/levenshtein v1.2.1 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
+	github.com/apparentlymart/go-textseg/v17 v17.0.1 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
@@ -39,6 +40,4 @@ require (
 	golang.org/x/tools v0.39.0 // indirect
 )
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.0
